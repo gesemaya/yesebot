@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "module": "CommonJS",
+    "target": "ESNext",
+    "paths": {
+      "*": ["./src/*"],
+      "@bot/*": [
+        "./src/*"
+      ],
+    },
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "outDir": "./build",
+    "skipLibCheck": true,
+    "strict": true,
+    "useUnknownInCatchVariables": false
+  },
+  "exclude": ["node_modules", "build"],
+  "include": ["src"],
+}
